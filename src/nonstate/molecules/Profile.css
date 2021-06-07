@@ -9,13 +9,15 @@
   border-radius: 140px;
   width: 140px;
   height: 140px;
+  text-align: center;
 }
 
 .div-name {
   font-size: 9px;
+  text-align: center;
 }
 
 .div-designation {
   font-size: 12px;
-  color: gray;
+  text-align: center;
 }

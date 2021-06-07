@@ -9,16 +9,11 @@ body {
   color: gray;
   font-family: "Helvetica Neue";
   font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
 }
 
 
 h1, h2, h3, p {
-  font-weight: 200;
+  font-weight: 300;
   color: gray;
   margin: 0;
   padding: 0;
@@ -30,20 +25,56 @@ hr {
   border-width: 0.5px;
 }
 
-.div-app-inner {
-  margin-top: 48px;
-  margin-bottom: 120px;
-  min-height: 200px;
+strong {
+  color: #c00;
+  font-weight: 300;
 }
+
+a {
+  text-decoration: none;
+  color: #080;
+}
+
+a:hover {
+  color: #c00;
+}
+
+.div-app {
+
+}
+
+.div-body {
+}
+
+.div-center {
+  top: 0;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.div-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  padding: 36px;
+}
+
+.div-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  padding: 36px;
+}
+
+.div-footer {
+}
+
 
 .div-copyright {
-  font-size: 12px;
+  margin-top: 48px;
   text-align: center;
-  opacity: 0.5;
-}
-
-strong {
-  color: green;
-  font-weight: 300;
-  padding-right: 12px;
 }

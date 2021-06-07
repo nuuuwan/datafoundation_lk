@@ -15,7 +15,7 @@ export default function Profile(props) {
         {name}
       </div>
       <div className="div-designation">
-        {designation}
+        <strong>{designation}</strong>
       </div>
     </div>
   )

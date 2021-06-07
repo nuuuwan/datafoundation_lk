@@ -5,7 +5,7 @@ import * as d3 from 'd3';
 import './Population.css';
 
 function getUnixTime() {
-  return Math.floor(Date.now() / 1000);
+  return Date.now() / 1000;
 }
 
 const formatPop = d3.format(",");
@@ -21,7 +21,7 @@ export default function Population() {
   useEffect(() => {
     const interval = setInterval(() => {
       setUnixTime(unixtime => (getUnixTime()));
-    }, 1000);
+    }, 100);
     return () => clearInterval(interval);
   }, []);
 

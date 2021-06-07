@@ -19,28 +19,35 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Menu />
+    <div className="div-app">
+      <BrowserRouter>
+        <div className="div-body">
+          <div className="div-left">
+            <Menu />
+          </div>
+          <div className="div-center">
+            <Switch>
+              <Route path="/about" component={AboutPage} />
+              <Route path="/contact" component={ContactPage} />
+              <Route path="/corporates" component={CorporatesPage} />
+              <Route path="/data" component={DataPage} />
+              <Route path="/government" component={GovernmentPage} />
+              <Route path="/home" component={HomePage} />
+              <Route path="/news" component={NewsPage} />
+              <Route path="/" component={HomePage} />
+            </Switch>
 
-      <div className="div-app-inner">
-        <Switch>
-          <Route path="/about" component={AboutPage} />
-          <Route path="/contact" component={ContactPage} />
-          <Route path="/corporates" component={CorporatesPage} />
-          <Route path="/data" component={DataPage} />
-          <Route path="/government" component={GovernmentPage} />
-          <Route path="/home" component={HomePage} />
-          <Route path="/news" component={NewsPage} />
-          <Route path="/" component={HomePage} />
-        </Switch>
-
-      </div>
-
-      <div className="div-copyright">
-        © 2021 <Logo/>
-      </div>
-
-    </BrowserRouter>
+          </div>
+          <div className="div-right">
+          </div>
+        </div>
+        <div className="div-footer">
+          <div className="div-copyright">
+            © 2021 <Logo/>
+          </div>
+        </div>
+      </BrowserRouter>
+    </div>
   );
 }
 

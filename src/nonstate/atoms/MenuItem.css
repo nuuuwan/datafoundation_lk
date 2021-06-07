@@ -1,16 +1,8 @@
 .div-menu-item {
-  display: table-cell;
-  padding-right: 12px;
+  padding: 3px;
 }
 
-a {
-  text-decoration: none;
-  color: gray;
-}
 
-a:hover {
-  color: red;
-}
 
 .div-menu-item-selected a {
   color: lightgray;
