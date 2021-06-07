@@ -11,3 +11,7 @@ a {
 a:hover {
   color: red;
 }
+
+.div-menu-item-selected a {
+  color: lightgray;
+}

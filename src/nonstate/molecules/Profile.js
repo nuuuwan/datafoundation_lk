@@ -1,9 +1,16 @@
+import {PROFILES} from '../../constants/Profile.js';
+import './Profile.css';
+
 export default function Profile(props) {
-  const {name, designation, imgSrc, linkedinProfile} = props;
+  const {profileID} = props;
+
+  const {name, designation, imgSrc, linkedinProfile} = PROFILES[profileID];
 
   return (
-    <div>
-      <img className="img-profile" src={imgSrc} alt="image"/>
+    <div className="div-profile">
+      <a href={linkedinProfile} target="_blank" rel="noreferrer">
+        <img className="img-profile" src={imgSrc} alt="image"/>
+      </a>
       <div className="div-name">
         {name}
       </div>

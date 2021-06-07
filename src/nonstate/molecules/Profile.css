@@ -1,0 +1,21 @@
+.div-profile {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  width: 140px;
+}
+
+.img-profile {
+  border-radius: 140px;
+  width: 140px;
+  height: 140px;
+}
+
+.div-name {
+  font-size: 9px;
+}
+
+.div-designation {
+  font-size: 12px;
+  color: gray;
+}
