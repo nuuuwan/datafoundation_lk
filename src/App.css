@@ -7,7 +7,8 @@
 
 body {
   color: gray;
-  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -17,7 +18,7 @@ body {
 
 
 h1, h2, h3, p {
-  font-weight: 300;
+  font-weight: 200;
   color: gray;
   margin: 0;
   padding: 0;
@@ -39,4 +40,10 @@ hr {
   font-size: 12px;
   text-align: center;
   opacity: 0.5;
+}
+
+strong {
+  color: green;
+  font-weight: 300;
+  padding-right: 12px;
 }

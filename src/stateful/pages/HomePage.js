@@ -1,14 +1,16 @@
 import './HomePage.css';
+import Population from '../atoms/Population.js';
 
 export default function HomePage(props) {
   return (
-    <div>
+    <div className="div-home-page">
       <div className="div-mission-home">
-        Make 100% of Sri Lanka's public data, digitized, efficiently processible, and accessible so
+        Let's make <strong>100%</strong>
+        of Sri Lanka's public data, digitized, efficiently processible, and accessible so that
       </div>
 
       <div className="div-population">
-        20,345,432
+        <Population />
       </div>
 
       <div className="div-mission-home">

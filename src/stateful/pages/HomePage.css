@@ -1,9 +1,9 @@
-.div-mission-home {
-  font-size: 24px;
-  text-align: center;
+.div-home-page {
+  margin-top: 72px;
 }
-
-.div-population {
-  font-size: 72px;
+.div-mission-home {
+  font-size: 36px;
   text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
