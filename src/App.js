@@ -20,9 +20,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <h1><Logo/></h1>
       <Menu />
-      <hr/>
 
       <div className="div-app-inner">
         <Switch>
@@ -35,11 +33,13 @@ function App() {
           <Route path="/news" component={NewsPage} />
           <Route path="/" component={HomePage} />
         </Switch>
+
       </div>
 
       <div className="div-copyright">
-        Copyright Lanka Data Foundation 2021
+        © 2021 <Logo/>
       </div>
+
     </BrowserRouter>
   );
 }

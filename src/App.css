@@ -6,20 +6,22 @@
 }
 
 body {
+  color: gray;
   font-family: -apple-system, 'Helvetica Neue', sans-serif;
-  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-weight: 300;
   color: gray;
-}
-
-.div-copyright {
-  font-size: 8px;
-  color: gray;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
 }
 
 hr {
@@ -28,6 +30,13 @@ hr {
 }
 
 .div-app-inner {
-  padding-bottom: 12px;
-  padding-top: 12px;
+  margin-top: 48px;
+  margin-bottom: 120px;
+  min-height: 200px;
+}
+
+.div-copyright {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.5;
 }
