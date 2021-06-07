@@ -1,0 +1,13 @@
+.div-menu-item {
+  display: table-cell;
+  padding-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: red;
+}
