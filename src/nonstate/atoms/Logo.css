@@ -1,0 +1,19 @@
+.span-l {
+  color: var(--color-sl-maroon);
+}
+
+.span-a {
+  color: var(--color-sl-orange);
+}
+
+.span-n {
+  color: var(--color-sl-yellow);
+}
+
+.span-k {
+  color: var(--color-sl-green);
+}
+
+.span-a2 {
+  color: black;
+}

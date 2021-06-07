@@ -1,12 +1,13 @@
+import {Link} from "react-router-dom";
 import './MenuItem.css';
 
 export default function MenuItem(props) {
   const {label} = props;
   return (
     <div className="div-menu-item">
-      <a href={`#${label}`}>
+      <Link to={`/${label.toLowerCase()}`}>
         {label}
-      </a>
+      </Link>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import MenuItem from './MenuItem.js';
+import MenuItem from '../atoms/MenuItem.js';
 import './Menu.css';
 
 
@@ -11,7 +11,7 @@ export default function Menu(props) {
       <MenuItem label="Corporates" />
       <MenuItem label="Government" />
       <MenuItem label="News" />
-      <MenuItem label="Contact Us" />
+      <MenuItem label="Contact" />
     </div>
   )
 }
