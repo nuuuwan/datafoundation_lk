@@ -12,7 +12,7 @@ export default function HomePage(props) {
       <Population />
 
       <div className="div-mission-home">
-        can make meaningful use of it
+        can make meaningful use of it!
       </div>
 
       <SVGMap regionID="LK"/>

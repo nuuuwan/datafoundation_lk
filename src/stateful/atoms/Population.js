@@ -38,7 +38,7 @@ export default function Population() {
   const populationProjDayStart = getPopulationProj(unixTimeDayStart);
   const populationProj = getPopulationProj(unixTime);
   const deltaToday = populationProj - populationProjDayStart;
-  const bornToday = deltaToday * 3;
+  const bornToday = deltaToday * 2.8;
   const renderedTime = new Date(unixTime * 1000).toLocaleTimeString();
 
   return (

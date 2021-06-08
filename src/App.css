@@ -43,6 +43,7 @@ a:hover {
 }
 
 .div-body {
+  min-height: calc(100vh - 100px);
 }
 
 .div-center {
@@ -76,4 +77,5 @@ a:hover {
 .div-copyright {
   margin-top: 48px;
   text-align: center;
+  margin-bottom: 48px;
 }
