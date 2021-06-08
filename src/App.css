@@ -2,7 +2,11 @@
   --color-sl-maroon: #8d2029;
   --color-sl-orange: #ff5b00;
   --color-sl-yellow: #ffb700;
+  --color-sl-yellow-light: #fff0ca;
   --color-sl-green: #005641;
+
+  --color-gray-f8: #f8f8f8;
+  --color-gray-fc: #fcfcfc;
 }
 
 body {

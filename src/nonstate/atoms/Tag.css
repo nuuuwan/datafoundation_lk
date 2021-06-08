@@ -1,6 +1,6 @@
 .span-tag {
-  background-color: ghostwhite;
-  border-radius: 12px;
-  padding: 6px;
+  background-color: var(--color-sl-yellow-light);
+  border-radius: 6px;
+  padding: 3px;
   font-size: 10px;
 }

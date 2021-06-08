@@ -2,7 +2,7 @@
   padding: 12px;
   min-width: 400px;
   border: none;
-  background: ghostwhite;
+  background: var(--color-gray-f8);
   border-radius: 12px;
   color: var(--color-sl-green);
   margin-bottom: 12px;

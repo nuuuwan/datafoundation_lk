@@ -14,8 +14,8 @@ export default function AboutPage(props) {
       </p>
       <h2>Our Board</h2>
       <Profile profileID={'sanjiva'}/>
-      <Profile profileID={'nishan'}/>
       <Profile profileID={'nuwan'}/>
+      <Profile profileID={'nishan'}/>
       <h2>Our Team</h2>
       <Profile profileID={'sherazad'}/>
       <Profile profileID={'umayanga'}/>
