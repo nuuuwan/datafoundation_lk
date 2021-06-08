@@ -6,15 +6,13 @@
 .div-source {
   color: var(--color-sl-green);
   font-size: 9px;
-  margin-bottom: 3px;
 }
 
 .div-download-name {
   font-size: 15px;
-  margin-bottom: 6px;
   min-width: 400px;
 }
 
 .div-tags {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }

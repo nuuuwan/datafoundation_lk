@@ -7,6 +7,7 @@
 
   --color-gray-f8: #f8f8f8;
   --color-gray-fc: #fcfcfc;
+  --color-gray-fd: #fdfdfd;
 }
 
 body {
@@ -16,13 +17,16 @@ body {
   line-height: 1.4;
 }
 
-h1, h2, h3, p, div {
+h1, h2, h3, p {
   font-weight: 300;
   margin: 0;
   padding: 0;
   padding-bottom: 12px;
   line-height: 1.4;
+}
 
+div {
+  line-height: 1.4;
 }
 
 hr {
@@ -81,7 +85,7 @@ a:hover {
 
 
 .div-copyright {
-  margin-top: 48px;
+  margin-top: 24px;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }

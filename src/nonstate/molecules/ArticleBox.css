@@ -1,6 +1,6 @@
 .div-article-box {
-  background: var(--color-gray-fc);
-  border: 1px solid lightgray;
+  background: var(--color-gray-fd);
+  border: 0.5px solid lightgray;
   border-radius: 6px;
   display: inline-block;
   margin: 12px;
