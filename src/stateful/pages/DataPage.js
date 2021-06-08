@@ -1,3 +1,5 @@
+import {DATA_DOWNLOADS} from '../../constants/DataDownloads.js';
+
 export default function DataPage(props) {
   return (
     <div>
@@ -9,9 +11,17 @@ export default function DataPage(props) {
       </ul>
       <h2>Download Public Data</h2>
       <ul>
-        <li>Administrative Regions of Sri Lanka</li>
-        <li>Election Results, Electoral Districts, Polling Divisions of Sri Lanka</li>
-        <li>Census Data</li>
+        {
+          DATA_DOWNLOADS.map(
+            function(dataInfo, i) {
+              const {name, url, tags} = dataInfo;
+              const key = `li-download-${i}`;
+              return (
+                <li key={key}>{name}</li>
+              );
+            },
+          )
+        }
       </ul>
     </div>
   );
