@@ -1,3 +1,3 @@
-.table-downloads {
-  padding: 6px;
+tr:nth-child(5n) {
+  color: black;
 }

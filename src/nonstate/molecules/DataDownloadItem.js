@@ -4,7 +4,7 @@ import './DataDownloadItem.css';
 
 export default function DataDownloadItem(props) {
   const {info} = props;
-  const {name, url, tags} = info;
+  const {name, url, tags, source} = info;
 
   return (
     <tr className="tr-data-download-item">
@@ -12,7 +12,7 @@ export default function DataDownloadItem(props) {
         {name}
       </td>
       <td>
-        {tags.map(
+        {[...tags, source].map(
           function(tag, i) {
             return (<Tag key={`tag-${i}`} label={tag} />);
           }
