@@ -16,27 +16,27 @@ const SECS_IN_YEAR = 86400 * 365.25;
 const POP_GROWTH_RATE = 0.612 / 100;
 
 export default function Population() {
-  const [unixtime, setUnixTime] = useState(getUnixTime());
+  const [unixTime, setUnixTime] = useState(getUnixTime());
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setUnixTime(unixtime => (getUnixTime()));
+      setUnixTime(unixTime => (getUnixTime()));
     }, 1000);
     return () => clearInterval(interval);
   }, []);
 
-  const elapsedYears = (unixtime - UT_2019) / SECS_IN_YEAR;
+  const elapsedYears = (unixTime - UT_2019) / SECS_IN_YEAR;
   const pop_signal = POPULATION_2019
     * Math.pow(1 + POP_GROWTH_RATE, elapsedYears)
   const population = Math.round(pop_signal);
-
+  const renderedTime = new Date(unixTime * 1000).toLocaleString();
   return (
     <strong>
       <span className="div-population">
         {formatPop(population)}
         <sup className="div-projection">
-          {'Projection as of '}
-          <strong>{new Date().toLocaleTimeString()}</strong>
+          {'Projection for '}
+          <strong>{renderedTime}</strong>
         </sup>
       </span>
     </strong>

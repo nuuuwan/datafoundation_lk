@@ -21,3 +21,10 @@
   font-size: 12px;
   text-align: center;
 }
+
+.img-social-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.4;
+  padding: 4px;
+}
