@@ -23,7 +23,7 @@ export default function SVGMap(props) {
 
 function SVGMapInner(props) {
   const {geo} = props;
-  const [width, height] = [300, 500];
+  const [width, height] = [300, 300];
   const projection = geoEqualEarth()
     .fitExtent([[0, 0], [width, height]], geo);
 

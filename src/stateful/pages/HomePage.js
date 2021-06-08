@@ -9,12 +9,10 @@ export default function HomePage(props) {
         Let's make <strong>100%</strong> of Sri Lanka's public data, digitized, efficiently processible, and accessible so that
       </div>
 
-      <div className="div-population">
-        <Population />
-      </div>
+      <Population />
 
       <div className="div-mission-home">
-        Sri Lankans can make meaningful use of it
+        can make meaningful use of it
       </div>
 
       <SVGMap regionID="LK"/>
