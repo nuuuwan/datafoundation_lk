@@ -1,5 +1,6 @@
 import './HomePage.css';
 import Population from '../atoms/Population.js';
+import SVGMap from '../atoms/SVGMap.js';
 
 export default function HomePage(props) {
   return (
@@ -15,6 +16,8 @@ export default function HomePage(props) {
       <div className="div-mission-home">
         Sri Lankans can make meaningful use of it
       </div>
+
+      <SVGMap regionID="LK"/>
     </div>
   );
 
