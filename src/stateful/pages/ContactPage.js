@@ -1,7 +1,7 @@
 export default function ContactPage(props) {
   return (
     <>
-      {`You can email us at `}
+      {`Email us at `}
       <a href="mailto:hello@datafoundation.lk">
         hello@datafoundation.lk
       </a>
