@@ -34,11 +34,7 @@ export default function Population() {
   }, []);
 
 
-  const unixTimeDayStart = (Math.floor(unixTime / 86400) - 5.5/24) * 86400;
-  const populationProjDayStart = getPopulationProj(unixTimeDayStart);
   const populationProj = getPopulationProj(unixTime);
-  const deltaToday = populationProj - populationProjDayStart;
-  const bornToday = deltaToday * 2.8;
   const renderedTime = new Date(unixTime * 1000).toLocaleTimeString();
 
   return (
@@ -46,20 +42,16 @@ export default function Population() {
       <div className="div-population">
         <strong>
           <span>
-            {formatPop(populationProj)}*
+            {formatPop(populationProj)}
           </span>
         </strong>
         <sup className="div-projection">
-          {'* Projection for '}
+          {' Projection for '}
           <strong>{renderedTime}</strong>
         </sup>
       </div>
       <div>
         Sri Lankans
-      </div>
-      <div>
-        (<strong>{`${formatPop(bornToday)}* `}</strong>
-        of whom were born today)
       </div>
     </div>
   );
