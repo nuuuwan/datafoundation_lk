@@ -34,7 +34,9 @@ export default function Population() {
       <span className="div-population">
         {formatPop(population)}
         <sup className="div-projection">
-          {`Real-time Projection`}
+          Projection (
+          <strong>{new Date().toLocaleTimeString()}</strong>
+          )
         </sup>
       </span>
     </strong>
