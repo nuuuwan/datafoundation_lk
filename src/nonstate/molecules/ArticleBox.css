@@ -1,0 +1,18 @@
+.div-article-box {
+  border: 1px solid gray;
+  border-radius: 12px;
+  display: table-cell;
+  min-width: 300px;
+}
+
+.div-name {
+  font-size: 24px;
+}
+
+.div-author {
+  font-size: 12px;
+}
+
+.div-details {
+  font-size: 18px;
+}
