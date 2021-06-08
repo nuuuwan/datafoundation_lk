@@ -13,15 +13,17 @@ export default function DataDownloads(props) {
   }
 
   function filterWithSearchText(a) {
-    return a['name'].toLowerCase().includes(searchText) || a.tags.reduce(
-      function(isMatchTag, tag) {
-        if (tag.toLowerCase().includes(searchText)) {
-          return true;
-        }
-        return isMatchTag;
-      },
-      false,
-    );
+    return a['name'].toLowerCase().includes(searchText)
+      || a['source'].toLowerCase().includes(searchText)
+      || a.tags.reduce(
+        function(isMatchTag, tag) {
+          if (tag.includes(searchText)) {
+            return true;
+          }
+          return isMatchTag;
+        },
+        false,
+      );
   }
 
   function sortByName(a, b) {

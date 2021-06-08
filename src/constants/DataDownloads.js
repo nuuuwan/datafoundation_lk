@@ -5,7 +5,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "Administrative divisions of Sri Lanka"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Districts of Sri Lanka",
@@ -13,7 +13,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "Administrative divisions of Sri Lanka"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Divisional Secretariats of Sri Lanka",
@@ -21,7 +21,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "Administrative divisions of Sri Lanka"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Grama Niladhari Divisions of Sri Lanka",
@@ -29,7 +29,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "Administrative divisions of Sri Lanka"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Local authorities of Sri Lanka",
@@ -37,7 +37,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "Local government in Sri Lanka"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Electoral Districts of Sri Lanka",
@@ -77,7 +77,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Lighting of Household",
@@ -85,7 +85,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Toilet Facilities of Household",
@@ -93,7 +93,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Communication items owned by Household",
@@ -101,7 +101,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Solid Waste Disposal by Household",
@@ -109,7 +109,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Ethnicity of Population",
@@ -117,7 +117,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Total Population",
@@ -125,7 +125,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Relationship to Household Head of Population",
@@ -133,7 +133,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Religious Affiliation of Population",
@@ -141,7 +141,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Marital Status of Population",
@@ -149,7 +149,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Gender of Population",
@@ -157,7 +157,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Living Quarters",
@@ -165,7 +165,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Age Group of Population",
@@ -173,7 +173,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Type of Housing Unit",
@@ -181,7 +181,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Occupation Status of Housing Units",
@@ -189,7 +189,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Wall Type in Housing Units",
@@ -197,7 +197,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Structure of Housing Units",
@@ -205,7 +205,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Roof Type in Housing Unit",
@@ -213,7 +213,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Floor Type in Housing Unit",
@@ -221,7 +221,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Households Living in Housing Unit",
@@ -229,7 +229,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Persons Living in Housing Unit",
@@ -237,7 +237,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Year of Construction of Housing Unit",
@@ -245,7 +245,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Rooms in Housing Unit",
@@ -253,7 +253,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Cooking Fuel of Household",
@@ -261,7 +261,7 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    },
    {
       "name":"Source of Drinking Water of Household",
@@ -269,6 +269,6 @@ export const DATA_DOWNLOADS = [
       "tags":[
          "2012 Census"
       ],
-      "source":"http://www.statistics.gov.lk/"
+      "source":"http://www.statistics.gov.lk"
    }
 ]
