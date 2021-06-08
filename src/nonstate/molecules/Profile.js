@@ -1,4 +1,5 @@
 import {PROFILES} from '../../constants/Profile.js';
+import Link from '../../nonstate/atoms/Link.js';
 import './Profile.css';
 
 import iconGitHub from '../../assets/images/icon_github.png';
@@ -37,9 +38,9 @@ export default function Profile(props) {
               return null;
             }
             return (
-              <a href={url} target="_blank" rel="noreferrer">
+              <Link href={url}>
                 <img className="img-social-icon" src={icon} alt="linkedin" />
-              </a>
+              </Link>
             );
           }
         )

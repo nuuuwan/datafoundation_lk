@@ -1,10 +1,12 @@
+import Link from '../../nonstate/atoms/Link.js';
+
 export default function ContactPage(props) {
   return (
     <>
       {`Email us at `}
-      <a href="mailto:hello@datafoundation.lk">
+      <Link href="mailto:hello@datafoundation.lk">
         hello@datafoundation.lk
-      </a>
+      </Link>
     </>
   );
 }

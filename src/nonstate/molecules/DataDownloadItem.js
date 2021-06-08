@@ -1,3 +1,4 @@
+import Link from '../../nonstate/atoms/Link.js';
 import Tag from '../../nonstate/atoms/Tag.js';
 import iconDownload from '../../assets/images/icon_download.png';
 import './DataDownloadItem.css';
@@ -19,9 +20,9 @@ export default function DataDownloadItem(props) {
         )}
       </td>
       <td>
-        <a href={url} target="_blank" rel="nonreferrer">
+        <Link href={url}>
           <img className="img-icon" src={iconDownload} alt="download" />
-        </a>
+        </Link>
       </td>
     </tr>
   )
