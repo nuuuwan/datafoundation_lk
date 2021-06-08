@@ -5,6 +5,9 @@ import './Profile.css';
 import iconGitHub from '../../assets/images/icon_github.png';
 import iconLinkedIn from '../../assets/images/icon_linkedin.png';
 import iconTwitter from '../../assets/images/icon_twitter.png';
+import iconGoogleScholar from '../../assets/images/icon_google_scholar.png';
+import iconWikipedia from '../../assets/images/icon_wikipedia.png';
+import iconWebsite from '../../assets/images/icon_website.png';
 
 export default function Profile(props) {
   const {profileID} = props;
@@ -16,6 +19,9 @@ export default function Profile(props) {
     githubProfileUrl,
     linkedinProfileUrl,
     twitterProfileUrl,
+    googleScholarProfileUrl,
+    wikipediaProfileUrl,
+    websiteUrl,
   } = PROFILES[profileID];
 
   return (
@@ -29,9 +35,12 @@ export default function Profile(props) {
       </div>
       {
         [
+          {url: websiteUrl, icon: iconWebsite},
           {url: linkedinProfileUrl, icon: iconLinkedIn},
           {url: twitterProfileUrl, icon: iconTwitter},
           {url: githubProfileUrl, icon: iconGitHub},
+          {url: wikipediaProfileUrl, icon: iconWikipedia},
+          {url: googleScholarProfileUrl, icon: iconGoogleScholar},
         ].map(
           function({url, icon}, i) {
             if (!url) {

@@ -1,14 +1,14 @@
 export const PROFILES = {
   sanjiva: {
-    name: 'Sanjiva Weerawarana',
+    name: 'Dr. Sanjiva Weerawarana',
     imgSrc: 'https://media-exp3.licdn.com/dms/image/C4D03AQExvPTMWbL8MQ/profile-displayphoto-shrink_200_200/0/1516260591433?e=1628726400&v=beta&t=Q9M9STuG9RYS4Nk39w168T6yOyoF8Xi9EJhbayqY9hk',
-    designation: 'Director',
+    designation: 'Director & Member',
     linkedinProfileUrl: 'https://www.linkedin.com/in/sanjivaweerawarana/',
     githubProfileUrl: 'https://github.com/sanjiva',
     twitterProfileUrl: 'https://twitter.com/sanjiva',
   },
   nishan: {
-    name: 'Nishan de Mel',
+    name: 'Dr. Nishan de Mel',
     imgSrc: 'https://media-exp3.licdn.com/dms/image/C5103AQEeKSw9Aw9CDA/profile-displayphoto-shrink_200_200/0/1527962029976?e=1628726400&v=beta&t=KHMqReDlmjV_8jwGGSJwdlfvGaL09nOBMVqeo5C-2eY',
     designation: 'Director',
     linkedinProfileUrl: 'https://lk.linkedin.com/in/nishan-de-mel-60759822',
@@ -35,4 +35,30 @@ export const PROFILES = {
     linkedinProfileUrl: 'https://www.linkedin.com/in/umayangag/',
     githubProfileUrl: 'https://github.com/umayangag',
   },
+
+  louiqa: {
+    name: 'Dr. Louiqa Raschid',
+    imgSrc: 'https://www.cs.umd.edu/sites/default/files/images/article/2020/LRaschid_IMG.JPG',
+    designation: 'Member',
+    linkedinProfileUrl: 'https://www.linkedin.com/in/louiqa-raschid-b76965',
+    wikipediaProfileUrl: 'https://en.wikipedia.org/wiki/Louiqa_Raschid',
+    googleScholarProfileUrl: 'https://scholar.google.com/citations?user=MD8nInYAAAAJ&hl=en',
+  },
+
+  verite: {
+    name: 'Verite Research',
+    imgSrc: 'https://media-exp1.licdn.com/dms/image/C510BAQGHnWQJTVSpSw/company-logo_200_200/0/1527484559551?e=2159024400&v=beta&t=_3LRmK4Pd2_GySh9e9ck3QOwiYbcNZUPaLWANfJS9BU',
+    designation: 'Member',
+    websiteUrl: 'https://www.veriteresearch.org/',
+    linkedinProfileUrl: 'https://www.linkedin.com/company/verit%C3%A9-research',
+    wikipediaProfileUrl: 'https://en.wikipedia.org/wiki/Verit%C3%A9_Research',
+  },
+
+  shea: {
+    name: 'Shea Wickramasingha',
+    imgSrc: 'https://media-exp3.licdn.com/dms/image/C5103AQFam17nqUt_Wg/profile-displayphoto-shrink_200_200/0/1525537346713?e=1628726400&v=beta&t=tThRfJaSsvDnxxIGdf5eBIHCRVCr4_JRFcGVH45146g',
+    designation: 'Member',
+    linkedinProfileUrl: 'https://lk.linkedin.com/in/shea-wickramasingha-221a9b25',
+  },
+
 }

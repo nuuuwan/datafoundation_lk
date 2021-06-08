@@ -19,6 +19,11 @@ export default function AboutPage(props) {
       <h2>Our Team</h2>
       <Profile profileID={'sherazad'}/>
       <Profile profileID={'umayanga'}/>
+      <h2>Our Members</h2>
+      <Profile profileID={'verite'}/>
+      <Profile profileID={'shea'}/>
+      <Profile profileID={'louiqa'}/>
+      <Profile profileID={'sanjiva'}/>
     </div>
   );
 }
