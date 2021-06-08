@@ -1,8 +1,7 @@
 .div-menu-item {
   padding: 3px;
+  font-size: 15px;
 }
-
-
 
 .div-menu-item-selected a {
   color: lightgray;
