@@ -21,16 +21,15 @@
 
 .div-details {
   font-size: 12px;
-  margin-bottom: 6px;
+  margin-bottom: 36px;
 }
 
-.button-try-tool {
+.link-try-tool {
   background: white;
   border: 1px solid lightgray;
   border-radius: 6px;
   color: var(--color-sl-green);
   font-size: 12px;
-  margin-top: 24px;
   padding: 6px;
   text-decoration: none;
   cursor: pointer;

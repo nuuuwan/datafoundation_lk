@@ -36,6 +36,11 @@ function App() {
               <Route path="/home" component={HomePage} />
               <Route path="/news" component={NewsPage} />
               <Route path="/tools" component={ToolsPage} />
+
+              <Route path="/mylocal" component={ToolsPage} />
+              <Route path="/kavuda" component={ToolsPage} />
+              <Route path="/org_chart" component={ToolsPage} />
+
               <Route path="/" component={HomePage} />
             </Switch>
 

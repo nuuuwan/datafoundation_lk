@@ -8,13 +8,14 @@ export default function ToolsPage(props) {
       {
         TOOLS.map(
           function(info, i) {
-            const {name, author, details} = info;
+            const {name, author, details, url} = info;
             return (
               <ArticleBox
                 key={`article-box-${i}-${name}`}
                 name={name}
                 author={author}
                 details={details}
+                url={url}
               />
             )
           }
