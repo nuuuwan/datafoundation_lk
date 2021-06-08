@@ -5,10 +5,15 @@
   background: ghostwhite;
   border-radius: 12px;
   color: var(--color-sl-green);
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .input-text-search-text:focus {
   outline: none;
   color: var(--color-sl-orange);
+}
+
+.div-search-stats {
+  margin-bottom: 24px;
+  font-size: 12px;
 }

@@ -42,6 +42,11 @@ export default function DataDownloads(props) {
         placeholder="Search data sources..."
         onChange={onChange}
       />
+
+      <div className="div-search-stats">
+        Found <strong>{matchingDownloadItems.length}</strong> matching item(s)
+      </div>
+
       <table className="table-downloads">
         <tbody>
         {
