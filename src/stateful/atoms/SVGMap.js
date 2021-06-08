@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { geoEqualEarth, geoPath } from 'd3-geo';
+import { geoNaturalEarth1, geoPath } from 'd3-geo';
 
 import GeoServer from '../../core/GeoServer.js';
 
@@ -24,7 +24,7 @@ export default function SVGMap(props) {
 function SVGMapInner(props) {
   const {geo} = props;
   const [width, height] = [300, 300];
-  const projection = geoEqualEarth()
+  const projection = geoNaturalEarth1()
     .fitExtent([[0, 0], [width, height]], geo);
 
   return (
