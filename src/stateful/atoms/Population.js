@@ -28,14 +28,7 @@ export default function Population() {
   const elapsedYears = (unixtime - UT_2019) / SECS_IN_YEAR;
   const pop_signal = POPULATION_2019
     * Math.pow(1 + POP_GROWTH_RATE, elapsedYears)
-  const pop_noise = (
-      Math.random() > 0.01
-        ? 0
-        : Math.random() > 0.2
-          ? 1
-          : -1
-  );
-  const population = Math.round(pop_signal + pop_noise);
+  const population = Math.round(pop_signal);
 
   return (
     <strong>
