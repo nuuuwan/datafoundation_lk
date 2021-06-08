@@ -10,14 +10,21 @@ export default function DataDownloadItem(props) {
   return (
     <tr className="tr-data-download-item">
       <td>
-        {name}
-      </td>
-      <td>
-        {[...tags, source].map(
-          function(tag, i) {
-            return (<Tag key={`tag-${i}`} label={tag} />);
-          }
-        )}
+        <div className="div-source">
+          <Link href={source}>
+            {source}
+          </Link>
+        </div>
+        <div className="div-download-name">
+          {name}
+        </div>
+        <div className="div-tags">
+          {tags.map(
+            function(tag, i) {
+              return (<Tag key={`tag-${i}`} label={tag} />);
+            }
+          )}
+        </div>
       </td>
       <td>
         <Link href={url}>

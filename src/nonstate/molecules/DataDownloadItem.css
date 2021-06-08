@@ -1,9 +1,27 @@
+.tr-data-download-item {
+    margin-bottom: 24px;
+}
 .tr-data-download-item td {
-  margin: 6px;
-  padding: 6px;
+  margin: 3px;
+  padding: 3px;
+  font-size: 12px;
 }
 
 .img-icon {
   width: 16px;
   height: 16px;
+}
+
+.div-source {
+  color: var(--color-sl-green);
+  font-size: 9px;
+}
+
+.div-download-name {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.div-tags {
+  margin-bottom: 12px;
 }

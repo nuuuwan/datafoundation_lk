@@ -30,9 +30,16 @@ export default function DataDownloads(props) {
     return a.name.localeCompare(b.name);
   }
 
-  const matchingDownloadItems = DATA_DOWNLOADS
-    .filter(filterWithSearchText)
-    .sort(sortByName);
+  const matchingDownloadItems = searchText
+    ? DATA_DOWNLOADS
+      .filter(filterWithSearchText)
+      .sort(sortByName)
+    : [];
+
+  const searchStats = (matchingDownloadItems.length > 0)
+    ? (<>
+      Found <strong>{matchingDownloadItems.length}</strong> matching item(s)
+    </>): '';
 
   return (
     <div>
@@ -44,7 +51,7 @@ export default function DataDownloads(props) {
       />
 
       <div className="div-search-stats">
-        Found <strong>{matchingDownloadItems.length}</strong> matching item(s)
+        {searchStats}
       </div>
 
       <table className="table-downloads">
