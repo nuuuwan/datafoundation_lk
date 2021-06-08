@@ -38,7 +38,7 @@ export default function DataDownloads(props) {
 
   const searchStats = (matchingDownloadItems.length > 0)
     ? (<>
-      Found <strong>{matchingDownloadItems.length}</strong> matching item(s)
+      Found <strong>{matchingDownloadItems.length}</strong> matching download(s)
     </>): '';
 
   return (
