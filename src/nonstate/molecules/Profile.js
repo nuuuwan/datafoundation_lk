@@ -9,7 +9,7 @@ export default function Profile(props) {
   return (
     <div className="div-profile">
       <a href={linkedinProfile} target="_blank" rel="noreferrer">
-        <img className="img-profile" src={imgSrc} alt="image"/>
+        <img className="img-profile" src={imgSrc} alt={profileID}/>
       </a>
       <div className="div-name">
         {name}
