@@ -1,12 +1,12 @@
 export const DATA_DOWNLOADS = [
   {
-    'name': 'Provinces',
+    'name': 'Provinces of Sri Lanka',
     'url': 'https://raw.githubusercontent.com/nuuuwan/gig-data/master/province.tsv',
-    'tags': ['Administrative Regions'],
+    'tags': ['Administrative Regions of Sri Lanka'],
   },
   {
-    'name': 'Districts',
+    'name': 'Districts of Sri Lanka',
     'url': 'https://raw.githubusercontent.com/nuuuwan/gig-data/master/district.tsv',
-    'tags': ['Administrative Regions'],
+    'tags': ['Administrative Regions of Sri Lanka'],
   }
 ]

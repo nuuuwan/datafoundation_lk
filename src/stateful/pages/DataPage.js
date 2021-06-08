@@ -1,4 +1,4 @@
-import {DATA_DOWNLOADS} from '../../constants/DataDownloads.js';
+import DataDownloads from '../../nonstate/molecules/DataDownloads.js';
 
 export default function DataPage(props) {
   return (
@@ -10,19 +10,7 @@ export default function DataPage(props) {
         <li>The Org Chart</li>
       </ul>
       <h2>Download Public Data</h2>
-      <ul>
-        {
-          DATA_DOWNLOADS.map(
-            function(dataInfo, i) {
-              const {name, url, tags} = dataInfo;
-              const key = `li-download-${i}`;
-              return (
-                <li key={key}>{name}</li>
-              );
-            },
-          )
-        }
-      </ul>
+      <DataDownloads />
     </div>
   );
 }
