@@ -2,16 +2,15 @@ import {Link, useLocation} from "react-router-dom";
 import './MenuItem.css';
 
 export default function MenuItem(props) {
-  const {label} = props;
-  const urlPart = label.toLowerCase();
+  const {label, url} = props;
   const pathname = useLocation().pathname;
-  const isSelected = pathname.includes(urlPart);
+  const isSelected = pathname.includes(url);
 
   let className = 'div-menu-item '
     + (isSelected ? 'div-menu-item-selected' : '');
   return (
     <div className={className}>
-      <Link to={`/${urlPart}`} >
+      <Link to={url} >
         {label}
       </Link>
     </div>
