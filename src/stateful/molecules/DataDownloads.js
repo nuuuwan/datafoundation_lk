@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import {DATA_DOWNLOADS} from '../../constants/DataDownloads.js';
-import DataDownloadItem from '../../nonstate/molecules/DataDownloadItem.js';
+import {DATA_DOWNLOADS} from 'constants/DataDownloads.js';
+import DataDownloadItem from 'nonstate/molecules/DataDownloadItem.js';
 import './DataDownloads.css';
 
 

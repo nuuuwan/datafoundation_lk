@@ -1,5 +1,5 @@
-import Profile from '../../nonstate/molecules/Profile.js';
-import Logo from '../../nonstate/atoms/Logo.js';
+import Profile from 'nonstate/molecules/Profile.js';
+import Logo from 'nonstate/atoms/Logo.js';
 
 import './AboutPage.css';
 export default function AboutPage(props) {

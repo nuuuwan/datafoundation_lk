@@ -1,4 +1,4 @@
-import WWW from '../base/WWW.js';
+import WWW from 'base/WWW.js';
 
 function gerServerHost() {
   console.debug(process.env);

@@ -1,5 +1,5 @@
-import Logo from '../atoms/Logo.js';
-import Link from '../atoms/Link.js';
+import Logo from 'nonstate/atoms/Logo.js';
+import Link from 'nonstate/atoms/Link.js';
 import './ArticleBox.css';
 
 export default function ArticleBox(props) {

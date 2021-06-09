@@ -4,17 +4,17 @@ import {
   Route,
 } from "react-router-dom";
 
-import Logo from './nonstate/atoms/Logo.js';
-import Menu from './nonstate/molecules/Menu.js';
+import Logo from 'nonstate/atoms/Logo.js';
+import Menu from 'nonstate/molecules/Menu.js';
 
-import AboutPage from './stateful/pages/AboutPage.js';
-import ContactPage from './stateful/pages/ContactPage.js';
-import CorporatesPage from './stateful/pages/CorporatesPage.js';
-import DownloadsPage from './stateful/pages/DownloadsPage.js';
-import GovernmentPage from './stateful/pages/GovernmentPage.js';
-import HomePage from './stateful/pages/HomePage.js';
-import NewsPage from './stateful/pages/NewsPage.js';
-import ToolsPage from './stateful/pages/ToolsPage.js';
+import AboutPage from 'stateful/pages/AboutPage.js';
+import ContactPage from 'stateful/pages/ContactPage.js';
+import CorporatesPage from 'stateful/pages/CorporatesPage.js';
+import DownloadsPage from 'stateful/pages/DownloadsPage.js';
+import GovernmentPage from 'stateful/pages/GovernmentPage.js';
+import HomePage from 'stateful/pages/HomePage.js';
+import NewsPage from 'stateful/pages/NewsPage.js';
+import ToolsPage from 'stateful/pages/ToolsPage.js';
 
 import './App.css';
 

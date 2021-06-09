@@ -1,4 +1,4 @@
-import Server from './Server.js';
+import Server from 'core/Server.js';
 
 export default class GeoServer extends Server {
   static async getGeo(regionID) {

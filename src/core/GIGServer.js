@@ -1,4 +1,4 @@
-import Server from './Server.js';
+import Server from 'core/Server.js';
 
 export default class GIGServer extends Server {
 

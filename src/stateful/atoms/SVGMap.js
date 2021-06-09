@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { geoNaturalEarth1, geoPath } from 'd3-geo';
 
-import GeoServer from '../../core/GeoServer.js';
+import GeoServer from 'core/GeoServer.js';
 
 import './SVGMap.css';
 

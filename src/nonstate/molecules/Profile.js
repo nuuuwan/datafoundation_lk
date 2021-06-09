@@ -1,13 +1,13 @@
-import {PROFILES} from '../../constants/Profile.js';
-import Link from '../../nonstate/atoms/Link.js';
+import {PROFILES} from 'constants/Profile.js';
+import Link from 'nonstate/atoms/Link.js';
 import './Profile.css';
 
-import iconGitHub from '../../assets/images/icon_github.png';
-import iconLinkedIn from '../../assets/images/icon_linkedin.png';
-import iconTwitter from '../../assets/images/icon_twitter.png';
-import iconGoogleScholar from '../../assets/images/icon_google_scholar.png';
-import iconWikipedia from '../../assets/images/icon_wikipedia.png';
-import iconWebsite from '../../assets/images/icon_website.png';
+import iconGitHub from 'assets/images/icon_github.png';
+import iconLinkedIn from 'assets/images/icon_linkedin.png';
+import iconTwitter from 'assets/images/icon_twitter.png';
+import iconGoogleScholar from 'assets/images/icon_google_scholar.png';
+import iconWikipedia from 'assets/images/icon_wikipedia.png';
+import iconWebsite from 'assets/images/icon_website.png';
 
 export default function Profile(props) {
   const {profileID} = props;

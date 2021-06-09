@@ -1,6 +1,6 @@
-import Link from '../../nonstate/atoms/Link.js';
-import Tag from '../../nonstate/atoms/Tag.js';
-import iconDownload from '../../assets/images/icon_download.png';
+import Link from 'nonstate/atoms/Link.js';
+import Tag from 'nonstate/atoms/Tag.js';
+import iconDownload from 'assets/images/icon_download.png';
 import './DataDownloadItem.css';
 
 export default function DataDownloadItem(props) {

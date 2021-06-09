@@ -1,4 +1,4 @@
-import Link from '../../nonstate/atoms/Link.js';
+import Link from 'nonstate/atoms/Link.js';
 
 export default function ContactPage(props) {
   return (

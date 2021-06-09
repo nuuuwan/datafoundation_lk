@@ -1,5 +1,5 @@
-import {TOOLS} from '../../constants/Tools.js';
-import ArticleBox from '../../nonstate/molecules/ArticleBox.js';
+import {TOOLS} from 'constants/Tools.js';
+import ArticleBox from 'nonstate/molecules/ArticleBox.js';
 
 export default function ToolsPage(props) {
   return (

@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import {asyncCacheGet} from './Cache.js';
+import {asyncCacheGet} from 'base/Cache.js';
 
 export default class WWW {
   static getURLAbsolute(urlRelative) {

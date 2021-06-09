@@ -1,6 +1,6 @@
 import './HomePage.css';
-import Population from '../atoms/Population.js';
-import SVGMap from '../atoms/SVGMap.js';
+import Population from 'stateful/atoms/Population.js';
+import SVGMap from 'stateful/atoms/SVGMap.js';
 
 export default function HomePage(props) {
   return (

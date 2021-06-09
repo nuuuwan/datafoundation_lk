@@ -1,4 +1,4 @@
-import MenuItem from '../atoms/MenuItem.js';
+import MenuItem from 'nonstate/atoms/MenuItem.js';
 import './Menu.css';
 
 
