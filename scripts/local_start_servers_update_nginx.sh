@@ -1,6 +1,6 @@
 nginx -s stop
 
-cp nginx-local.conf /usr/local/etc/nginx/nginx.conf
+cp nginx/nginx-final-local.conf /usr/local/etc/nginx/nginx.conf
 
 docker pull nuuuwan/gig_server
 docker pull nuuuwan/geo_server
