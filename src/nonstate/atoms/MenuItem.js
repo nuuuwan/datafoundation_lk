@@ -1,7 +1,5 @@
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import './MenuItem.css';
-import { useLocation } from 'react-router-dom'
-
 
 export default function MenuItem(props) {
   const {label} = props;
