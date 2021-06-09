@@ -18,7 +18,7 @@ export default function SVGMap(props) {
 
   return geo ? (
     <SVGMapInner geo={geo} />
-  ) : 'Loading...';
+  ) : '...';
 };
 
 function SVGMapInner(props) {
