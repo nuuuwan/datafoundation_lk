@@ -25,6 +25,10 @@ h1, h2, h3, p {
   line-height: 1.4;
 }
 
+.number {
+  font-family: monospace;
+}
+
 div {
   line-height: 1.4;
 }
