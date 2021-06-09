@@ -1,6 +1,7 @@
-import WWW from 'base/WWW.js';
+import WWW from '../base/WWW.js';
 
 function gerServerHost() {
+  console.debug(process.env);
   const { REACT_APP_SERVER_HOST } = process.env;
   return REACT_APP_SERVER_HOST;
 }

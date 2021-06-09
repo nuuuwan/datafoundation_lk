@@ -1,5 +1,5 @@
-import {Link} from "react-router-dom";
-import Logo from '../../nonstate/atoms/Logo.js';
+import Logo from '../atoms/Logo.js';
+import Link from '../atoms/Link.js';
 import './ArticleBox.css';
 
 export default function ArticleBox(props) {
@@ -14,8 +14,10 @@ export default function ArticleBox(props) {
       <div className="div-name">{name}</div>
       <div className="div-author">By {authorContent}</div>
       <div className="div-details">{details}</div>
-      <Link className="link-try-tool" to={url} >
-        Try this tool
+      <Link href={url} >
+        <button className="button-try-this-tool">
+          Try this tool
+        </button>
       </Link>
     </div>
   )

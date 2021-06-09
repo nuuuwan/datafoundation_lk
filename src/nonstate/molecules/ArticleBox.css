@@ -26,7 +26,7 @@
   margin-bottom: 36px;
 }
 
-.link-try-tool {
+.button-try-this-tool {
   background: white;
   border: 1px solid lightgray;
   border-radius: 6px;
@@ -38,7 +38,7 @@
 }
 
 
-.button-try-tool:hover {
+.button-try-this-tool:hover {
   color: var(--color-sl-orange);
   cursor: pointer;
 }
