@@ -2,7 +2,7 @@
 
 ![diagram_datafoundation_lk](https://raw.githubusercontent.com/nuuuwan/datafoundation_lk/main/src/assets/images/diagram_datafoundation_lk.png?token=AAIQCWPO3OPBLUUVZOFW3O3AZIW3K)
 
-This React App (datafoundation_lk) implements a React App for www.datafoundation.lk. It depends on two python flask/waitress services ([gig_server](https://github.com/nuuuwan/gig_server) and [geo_server](https://github.com/nuuuwan/geo_server)), and another React App mylocal.
+This React App (datafoundation_lk) implements a React App for www.datafoundation.lk. It depends on two python flask/waitress services ([gig_server](https://github.com/nuuuwan/gig_server) and [geo_server](https://github.com/nuuuwan/geo_server)), and another React App [mylocal](https://github.com/nuuuwan/mylocal).
 
 # Setting up DataFoundation.LK on an AWS EC2 Instance
 
