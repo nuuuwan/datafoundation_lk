@@ -11,7 +11,7 @@ const MENU_INFOS = [
     label: (
       <span>
         Downloads
-        <img className="img-menu-icon" src={iconDownload} />
+        <img className="img-menu-icon" src={iconDownload} alt="icon" />
       </span>
     ),
     url: '/downloads',
@@ -20,7 +20,7 @@ const MENU_INFOS = [
     label: (
       <span>
         Tools
-        <img className="img-menu-icon" src={iconTools} />
+        <img className="img-menu-icon" src={iconTools} alt="icon" />
       </span>
     ),
     url: '/tools',

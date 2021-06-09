@@ -19,7 +19,7 @@ export default function ArticleBox(props) {
       <Link href={url} >
         <button className="button-try-this-tool">
           Try this tool
-          <img className="img-menu-icon" src={iconTools} />
+          <img className="img-menu-icon" src={iconTools} alt="icon" />
         </button>
       </Link>
     </div>
