@@ -1,5 +1,7 @@
 import Logo from 'nonstate/atoms/Logo.js';
 import Link from 'nonstate/atoms/Link.js';
+
+import iconTools from 'assets/images/icon_tools.png';
 import './ArticleBox.css';
 
 export default function ArticleBox(props) {
@@ -17,6 +19,7 @@ export default function ArticleBox(props) {
       <Link href={url} >
         <button className="button-try-this-tool">
           Try this tool
+          <img className="img-menu-icon" src={iconTools} />
         </button>
       </Link>
     </div>
