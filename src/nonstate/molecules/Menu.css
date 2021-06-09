@@ -1,2 +1,9 @@
 .div-menu {
 }
+
+.img-menu-icon {
+  width: 12px;
+  height: 12px;
+  padding-left: 6px;
+  opacity: 0.4;
+}
