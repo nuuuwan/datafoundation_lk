@@ -1,8 +1,11 @@
 echo '----------------------------------------------------------------'
 
 docker pull nuuuwan/gig_server
+echo '...'
 docker pull nuuuwan/geo_server
+echo '...'
 docker pull nuuuwan/mylocal
+echo '...'
 docker pull nuuuwan/datafoundation_lk
 
 echo '----------------------------------------------------------------'
