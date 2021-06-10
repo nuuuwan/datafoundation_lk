@@ -1,23 +1,9 @@
-nginx -s stop
-
 echo '----------------------------------------------------------------'
 
 docker pull nuuuwan/gig_server
 docker pull nuuuwan/geo_server
 docker pull nuuuwan/mylocal
 docker pull nuuuwan/datafoundation_lk
-
-echo '----------------------------------------------------------------'
-
-docker kill local_gig_server
-docker kill local_geo_server
-docker kill local_mylocal
-docker kill local_datafoundation_lk
-
-docker rm local_gig_server
-docker rm local_geo_server
-docker rm local_mylocal
-docker rm local_datafoundation_lk
 
 echo '----------------------------------------------------------------'
 
