@@ -8,7 +8,10 @@ import './DataDownloads.css';
 export default function DataDownloads(props) {
   const [searchText, setSearchText] = useState('');
 
-  function onChange(e) {
+  function onKeyPress(e) {
+    if ((e.keyCode || e.charCode) !== 13) {
+      return;
+    }
     setSearchText(e.target.value.toLowerCase());
   }
 
@@ -46,8 +49,8 @@ export default function DataDownloads(props) {
       <input
         type="text"
         className="input-text-search-text"
-        placeholder="Search data sources..."
-        onChange={onChange}
+        placeholder="Input search text, and press enter..."
+        onKeyPress={onKeyPress}
       />
 
       <div className="div-search-stats">
