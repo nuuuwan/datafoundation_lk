@@ -22,4 +22,15 @@ docker ps
 echo '----------------------------------------------------------------'
 cp nginx/nginx-final-local.conf /usr/local/etc/nginx/nginx.conf
 nginx
+
+echo '----------------------------------------------------------------'
+curl "http:/localhost:4001/entities/LK"
+echo '...'
+curl "http:/localhost/gig_server/entities/LK"
+echo '...'
+curl "http:/localhost:4002/latlng_to_region/8,80"
+echo '...'
+curl "http:/localhost/geo_server/latlng_to_region/8,80"
+echo '----------------------------------------------------------------'
+
 tail -f /usr/local/var/log/nginx/error.log
