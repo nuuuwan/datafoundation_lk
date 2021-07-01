@@ -6,8 +6,9 @@ echo "AWS_EC2_IP_ADDRESS=$AWS_EC2_IP_ADDRESS"
 
 DOMAIN=www.datafoundation.lk
 
-# scp -i $AWS_EC2_PEM_FILE nginx/nginx-final-aws-nossl.conf $AWS_EC2_USER@$AWS_EC2_IP_ADDRESS:/home/ubuntu/nginx.conf
-scp -i $AWS_EC2_PEM_FILE nginx/nginx-final-aws.conf $AWS_EC2_USER@$AWS_EC2_IP_ADDRESS:/home/ubuntu/nginx.conf
+scp -i $AWS_EC2_PEM_FILE nginx/nginx-final-aws-nossl.conf $AWS_EC2_USER@$AWS_EC2_IP_ADDRESS:/home/ubuntu/nginx.conf
+# scp -i $AWS_EC2_PEM_FILE nginx/nginx-final-aws.conf $AWS_EC2_USER@$AWS_EC2_IP_ADDRESS:/home/ubuntu/nginx.conf
+
 $ec2_sudo mv /home/ubuntu/nginx.conf /etc/nginx/nginx.conf
 
 $ec2_sudo ls /etc/letsencrypt/live/$DOMAIN/
