@@ -85,11 +85,11 @@ export default function CodeOfConductPage(props) {
                     which is malicious or technologically harmful. By breaching this provision, you would commit a
                     criminal offence under the <a
                         href="https://www.icta.lk/icta-assets/uploads/2016/03/ComputerCrimesActNo24of2007.pdf"
-                        target="_blank"> Computer Crimes Act No. 24 of 2007 </a>.
+                        target="_blank" rel="noreferrer"> Computer Crimes Act No. 24 of 2007 </a>.
                 </li>
                 <li> Misuse data provided by the site to breach any provision of the <a
                     href="https://www.icta.lk/icta-assets/uploads/2016/03/ComputerCrimesActNo24of2007.pdf"
-                    target="_blank">Computer Crimes Act No. 24 of 2007, Intellectual Property Act No. 36 of 2003
+                    target="_blank" rel="noreferrer">Computer Crimes Act No. 24 of 2007, Intellectual Property Act No. 36 of 2003
                     (Sections related to Copyright), Electronic Transactions Act No. 19 of 2006 </a>, or any other acts,
                     regulations, circulars, guidelines are related to eLaws and policies of Sri Lanka government in
                     effect at the time of use.
