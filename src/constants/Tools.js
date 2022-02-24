@@ -9,12 +9,12 @@ export const TOOLS = [
     'name': 'Kavuda.lk',
     'author': 'Lanka Data Foundation',
     'details': 'News with context.',
-    'url': '/kavuda',
+    'url': 'https://kavuda.lk/#/',
   },
   {
     'name': 'The National Org Chart',
     'author': 'Lanka Data Foundation',
     'details': 'Org chart of all state organizations.',
-    'url': '/org_chart',
+    'url': 'https://orgchartdemo.opensource.lk/#/',
   },
 ]

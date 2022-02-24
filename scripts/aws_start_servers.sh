@@ -6,8 +6,8 @@ echo "AWS_EC2_IP_ADDRESS=$AWS_EC2_IP_ADDRESS"
 
 $ec2_sudo docker pull nuuuwan/gig_server
 $ec2_sudo docker pull nuuuwan/geo_server
-$ec2_sudo docker pull nuuuwan/mylocal
-$ec2_sudo docker pull nuuuwan/datafoundation_lk
+$ec2_sudo docker pull ldflk/mylocal
+$ec2_sudo docker pull ldflk/datafoundation
 
 $ec2_sudo docker kill local_gig_server
 $ec2_sudo docker kill local_geo_server
@@ -16,8 +16,8 @@ $ec2_sudo docker kill local_datafoundation_lk
 
 $ec2_sudo docker run --rm -p 4001:4001 -d --name local_gig_server nuuuwan/gig_server
 $ec2_sudo docker run --rm -p 4002:4002 -d --name local_geo_server nuuuwan/geo_server
-$ec2_sudo docker run --rm -p 5002:80 -d --name local_mylocal nuuuwan/mylocal
-$ec2_sudo docker run --rm -p 5001:80 -d --name local_datafoundation_lk nuuuwan/datafoundation_lk
+$ec2_sudo docker run --rm -p 5002:80 -d --name local_mylocal ldflk/mylocal
+$ec2_sudo docker run --rm -p 5001:80 -d --name local_datafoundation_lk ldflk/datafoundation
 
 $ec2_sudo docker ps
 

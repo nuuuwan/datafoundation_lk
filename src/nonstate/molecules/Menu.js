@@ -27,6 +27,7 @@ const MENU_INFOS = [
   },
   {label: 'Government'},
   {label: 'Corporates'},
+  {label: 'Code of Conduct', url: '/codeofconduct'},
   {label: 'About Us', url: '/about'},
   {label: 'Contact'},
 ]

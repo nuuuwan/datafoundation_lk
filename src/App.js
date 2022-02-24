@@ -17,6 +17,7 @@ import NewsPage from 'stateful/pages/NewsPage.js';
 import ToolsPage from 'stateful/pages/ToolsPage.js';
 
 import './App.css';
+import CodeOfConductPage from "./stateful/pages/CodeOfConduct";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <div className="div-center">
             <Switch>
               <Route path="/about" component={AboutPage} />
+              <Route path="/codeofconduct" component={CodeOfConductPage} />
               <Route path="/contact" component={ContactPage} />
               <Route path="/corporates" component={CorporatesPage} />
               <Route path="/downloads" component={DownloadsPage} />
