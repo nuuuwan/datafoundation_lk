@@ -18,7 +18,7 @@ spec:
         app_name: datafoundation_lk
     spec:
       containers:
-        - image: datafoundation_lk.azurecr.io/main
+        - image: datafoundationlk.azurecr.io/main
           imagePullPolicy: Always
           name: datafoundation_lk
           ports:
