@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    reloader.stakater.com/auto: "true"
+  labels:
+    app_name: datafoundation_lk
+  name: datafoundation_lk
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app_name: datafoundation_lk
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app_name: datafoundation_lk
+    spec:
+      containers:
+        - image: datafoundationlk.azurecr.io/main
+          imagePullPolicy: Always
+          name: datafoundation_lk
+          ports:
+            - containerPort: 80
+              name: port-80
+              protocol: TCP
+          resources:
+            limits:
+              cpu: 500m
+              memory: 512Mi
+            requests:
+              cpu: 500m
+              memory: 512Mi
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 60
